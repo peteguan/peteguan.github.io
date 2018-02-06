@@ -1,48 +1,88 @@
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#######################
+# Theme Customization #
+#######################
 
-# Site settings
+title: J. Bravo                             # used in <title> tag & site header
+author: Johnny Bravo                        # used in a <meta> tag & /feed.xml
+description: >                              # used in a <meta> tag & /feed.xml
+  Hello 911 emergency, there's a handsome guy in my house!
+  Oh wait a second, cancel that. It's only me.
+slogan: Showtime!                           # used in site header, beside title
+avatar: /i/avatar.png                       # used as portrait in site header
+banner: /i/mountains.svg                    # used as background in site header
+url: http://solana.ryanlue.com              # used by plugins to generate feed.xml and sitemap.xml
+baseurl: ''                                 # prepended to all absolute filepaths
+repo: https://github.com/rlue/jekyll-solana # used in footer
 
-# Disqus settings (shortname is sufficient)
-disqus_shortname: Philsensus
+# Objects listed here will appear in the main nav menu.
+# Exceeding four items may cause problems on the desktop (>900px wide) layout.
+nav_menu:
+  - name: Posts
+    url: /
+    icon: /i/icons.svg#posts # icons should be 24x24 px.
+  - name: Projects
+    url: /projects
+    icon: /i/icons.svg#portfolio
+  - name: GitHub
+    url: https://github.com/rlue/
+    icon: /i/icons.svg#github
+    outbound: true      # this key sets a link to open in a new window.
+  - name: Contact
+    scheme: mailto      # these keys enable email obfuscation.
+    handle: hello       # you know, to protect you from bots. (handle and domain
+    domain: github.com  # are separated in case bots crawl GitHub repos, too.)
+    icon: /i/icons.svg#email
 
-# txtpen settings (shortname is sufficient)
-txtpen_sitename: 
+# Objects listed here will appear on the /projects.html page.
+projects:
+  - title: Solana
+    teaser: A responsive blog template written in Sass and vanilla JavaScript.
+    url: https://github.com/rlue/jekyll-solana
+    role: Creator
+    category: Frontend Dev
+  - title: Cortana
+    teaser: A talking robot. Now available on Google Play?
+    url: https://play.google.com/store/apps/details?id=com.microsoft.cortana
+    role: Core Team
+    category: NLP
+  - title: Rihanna
+    teaser: Possibly another robot. Also available on Google Play.
+    url: https://play.google.com/store/music/artist/Rihanna?id=Arcw2m2ih45qntv3fufub25tyhu
+    role: Contributor
+    category: Algorithmic Composition
 
-# Build settings
-markdown: kramdown
-gems:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-polyglot
-  - jekyll-seo-tag
+#################
+# Site Settings #
+#################
+
+incremental: true
 exclude:
-  - package.json
-  - Rakefile
-  - node_modules
   - Gemfile
-  - console-theme.gemspec
-  - gulpfile.js
-  - assets/js
-  - assets/css
-  - screenshot.png
-  - LICENSE.txt
+  - Gemfile.lock
+  - LICENSE
   - README.md
+  - TODO.md
 
-# Jekyll paginate settings
-paginate: 5
-paginate_path: "/archive/page:num/"
+permalink: /:collection/:path
 
-# Related posts settings
-max_related_posts_num: 4
+collections:
+  category: { output: true }
+  tag:      { output: true }
 
-# sass settings (you can turn this on but please run gulp)
-#sass:
-#  sass_dir: _sass
-#  style: compressed
+defaults:
+  - scope:  { type:   posts    }
+    values: { layout: post     }
+  - scope:  { type:   tag      }
+    values: { layout: listing  }
+  - scope:  { type:   category }
+    values: { layout: listing  }
 
-# Jekyll polyglot settings
-languages: ["en"]
-default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css"]
-parallel_localization: false
+sass:
+  sass_dir: _assets/css
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+paginate: 10
