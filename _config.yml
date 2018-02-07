@@ -35,10 +35,10 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+twitter:            https://twitter.com/PeteEpic
+facebook:           https://www.facebook.com/pete.guan.1
+instagram:          https://www.instagram.com/peteguan/
+github:             https://github.com/peteguan
 
 # personal
 location:           Birmingham, UK / Shanghai, China
