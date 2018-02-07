@@ -9,7 +9,7 @@ sitemap:
 ---
 ## About ME
 
-<span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/images/villa_broadcasting.jpg" | absolute_url }}" alt="" /></span>
 
 My name is Pete Cheng Guan.
 
@@ -24,12 +24,29 @@ I joined [ctrip.com](http://ctrip.com/) at the very beginning of 2018, working a
 
 
 ### Spare Time
+
+I started to play guitar when I was a kid.
+
+
 <div class="box">
   <p>
-  a one-measure fits-all approach won't do the trick with regards to content promoting. Rather, an emphasis on making remarkable, high caliber and totally genuine content that is engaging, helpful and fascinating for customers will get you the crown. From content, video and symbolism to infographics, studies, online courses and podcasts, whatever your favored content medium is, guarantee it is shareable and pertinent to your industry.
+  #### Equipments:
+
+  ##### Electric Guitars:
+  PRS 513, Fender Stratocaster 70s Black, Fender Partcaster USA Sunburst, Epiphone Les Paul custom 59' Pete Guan, Fender Japan Stratocaster 1957 Candy Red(made in 1994),
+  Epiphone Inspired by John Lennon 1965 Casino(VS), Jackson RR24T, Fender Mexico Telecaster 72' Black, Fujigen J-standard Telecaster...
+
+  ##### Bass Guitars:
+  Fender Japan J-Bass, History Japan
+
+  ##### Acoustic Guitars:
+  Yamaha SLG-200, Yamaha SLG-220, Epiphone AJ100CE
+
+  ##### Effect Pedals:  
+  Marshall Gov'nor (made in 1994), Boss TE-2, JHS Morning Glory, Boss CE-20, Maxon CS-8 (made in 1987)
+
+  
   </p>
 </div>
 
 <span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
-
-On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
