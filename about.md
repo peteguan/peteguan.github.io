@@ -15,14 +15,14 @@ My name is Pete Cheng Guan (关程华宸). I was born in Shenyang, China.
 
 I got my MSc in the University of Birmingham in 2017, supervised by [Prof. Mark D. Ryan](https://www.cs.bham.ac.uk/~mdr/) and [Dr. Ian Batten](https://www.batten.eu.org/~igb/) in cyber security field. During the college time, I focused on penetration testing, crypto suite and password management.
 
-Then I joined [ctrip.com](http://ctrip.com/) at the very beginning of 2018, working as an Site Reliability Engineer. I started to learn DevOps techniques such as CDN, GSLB and new programming langs like python and golang here.
+Then I joined [ctrip.com](http://ctrip.com/) at the very beginning of 2018, working as an Site Reliability Engineer. I started to learn DevOps techniques such as CDN, GSLB and new programming langs like python and golang here. In saying that, everything is new for me but deserved to enjoy.
 
 
 
 ### Spare Time
 <div class="box">
   <p>
-  In saying that, a one-measure fits-all approach won't do the trick with regards to content promoting. Rather, an emphasis on making remarkable, high caliber and totally genuine content that is engaging, helpful and fascinating for customers will get you the crown. From content, video and symbolism to infographics, studies, online courses and podcasts, whatever your favored content medium is, guarantee it is shareable and pertinent to your industry.
+  a one-measure fits-all approach won't do the trick with regards to content promoting. Rather, an emphasis on making remarkable, high caliber and totally genuine content that is engaging, helpful and fascinating for customers will get you the crown. From content, video and symbolism to infographics, studies, online courses and podcasts, whatever your favored content medium is, guarantee it is shareable and pertinent to your industry.
   </p>
 </div>
 
