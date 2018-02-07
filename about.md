@@ -11,7 +11,9 @@ sitemap:
 
 <span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
 
-My name is Pete Cheng Guan (关程华宸). I was born in Shenyang, China.
+My name is Pete Cheng Guan (关程华宸).  
+
+I was born in Shenyang, China.  
 
 I got my MSc in the University of Birmingham in 2017, supervised by [Prof. Mark D. Ryan](https://www.cs.bham.ac.uk/~mdr/) and [Dr. Ian Batten](https://www.batten.eu.org/~igb/) in cyber security field. During the college time, I focused on penetration testing, crypto suite in network protocols and password management.
 
