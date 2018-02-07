@@ -11,7 +11,7 @@ sitemap:
 
 <span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
 
-I got my MSc in the University of Birmingham in 2017, supervised by [Prof. Mark D. Ryan](https://www.cs.bham.ac.uk/~mdr/) and [Dr. Ian Batten](https://www.batten.eu.org/~igb/). 
+I got my MSc in the University of Birmingham in 2017, supervised by [Prof. Mark D. Ryan](https://www.cs.bham.ac.uk/~mdr/) and [Dr. Ian Batten](https://www.batten.eu.org/~igb/) in cyber security field.
 
 Then I joined [ctrip.com](http://ctrip.com/) at the very beginning of 2018, working as an Site Reliability Engineer.
 
