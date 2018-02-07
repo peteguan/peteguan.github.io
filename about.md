@@ -25,27 +25,29 @@ I joined [ctrip.com](http://ctrip.com/) at the very beginning of 2018, working a
 
 ### Spare Time
 
-I started to play guitar when I was a kid.
+
+
+I started to play guitar when I was a kid and music has been an important part in my life. Collecting equipments is what I am interested.
 
 
 <div class="box">
   <p>
-  #### Equipments:
+  ##### Equipments:  
 
-  ##### Electric Guitars:
+  ###### Electric Guitars:  
   PRS 513, Fender Stratocaster 70s Black, Fender Partcaster USA Sunburst, Epiphone Les Paul custom 59' Pete Guan, Fender Japan Stratocaster 1957 Candy Red(made in 1994),
-  Epiphone Inspired by John Lennon 1965 Casino(VS), Jackson RR24T, Fender Mexico Telecaster 72' Black, Fujigen J-standard Telecaster...
+  Epiphone Inspired by John Lennon 1965 Casino(VS), Jackson RR24T, Fender Mexico Telecaster 72' Black, Fujigen J-standard Telecaster...  
 
-  ##### Bass Guitars:
-  Fender Japan J-Bass, History Japan
+  ###### Bass Guitars:  
+  Fender Japan J-Bass, History Japan  
 
-  ##### Acoustic Guitars:
-  Yamaha SLG-200, Yamaha SLG-220, Epiphone AJ100CE
+  ###### Acoustic Guitars:  
+  Yamaha SLG-200, Yamaha SLG-220, Epiphone AJ100CE  
 
-  ##### Effect Pedals:  
-  Marshall Gov'nor (made in 1994), Boss TE-2, JHS Morning Glory, Boss CE-20, Maxon CS-8 (made in 1987)
+  ###### Effect Pedals:   
+  Marshall Gov'nor (made in 1994), Boss TE-2, JHS Morning Glory, Boss CE-20, Maxon CS-8 (made in 1987), Boss GT-001  
 
-  
+
   </p>
 </div>
 
