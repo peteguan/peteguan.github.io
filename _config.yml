@@ -1,88 +1,91 @@
-#######################
-# Theme Customization #
-#######################
+# SITE CONFIGURATION
+baseurl: "/Type-on-Strap"
+url: "https://sylhare.github.io"
 
-title: J. Bravo                             # used in <title> tag & site header
-author: Johnny Bravo                        # used in a <meta> tag & /feed.xml
-description: >                              # used in a <meta> tag & /feed.xml
-  Hello 911 emergency, there's a handsome guy in my house!
-  Oh wait a second, cancel that. It's only me.
-slogan: Showtime!                           # used in site header, beside title
-avatar: /i/avatar.png                       # used as portrait in site header
-banner: /i/mountains.svg                    # used as background in site header
-url: http://solana.ryanlue.com              # used by plugins to generate feed.xml and sitemap.xml
-baseurl: ''                                 # prepended to all absolute filepaths
-repo: https://github.com/rlue/jekyll-solana # used in footer
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Type on Strap
+  avatar: assets/img/triangle.svg
+  favicon: assets/favicon.ico
+  gravatar: # Email MD5 hash
+  description: "A website with blog posts and pages" # used by search engines
 
-# Objects listed here will appear in the main nav menu.
-# Exceeding four items may cause problems on the desktop (>900px wide) layout.
-nav_menu:
-  - name: Posts
-    url: /
-    icon: /i/icons.svg#posts # icons should be 24x24 px.
-  - name: Projects
-    url: /projects
-    icon: /i/icons.svg#portfolio
-  - name: GitHub
-    url: https://github.com/rlue/
-    icon: /i/icons.svg#github
-    outbound: true      # this key sets a link to open in a new window.
-  - name: Contact
-    scheme: mailto      # these keys enable email obfuscation.
-    handle: hello       # you know, to protect you from bots. (handle and domain
-    domain: github.com  # are separated in case bots crawl GitHub repos, too.)
-    icon: /i/icons.svg#email
+  # Header and footer text
+  header_text: > #two or three lines to describe your site
+     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
+  header_text_feature_image: assets/img/pexels/triangular.jpeg
+  footer_text: >
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
-# Objects listed here will appear on the /projects.html page.
-projects:
-  - title: Solana
-    teaser: A responsive blog template written in Sass and vanilla JavaScript.
-    url: https://github.com/rlue/jekyll-solana
-    role: Creator
-    category: Frontend Dev
-  - title: Cortana
-    teaser: A talking robot. Now available on Google Play?
-    url: https://play.google.com/store/apps/details?id=com.microsoft.cortana
-    role: Core Team
-    category: NLP
-  - title: Rihanna
-    teaser: Possibly another robot. Also available on Google Play.
-    url: https://play.google.com/store/music/artist/Rihanna?id=Arcw2m2ih45qntv3fufub25tyhu
-    role: Contributor
-    category: Algorithmic Composition
+  # Icons
+  rss: true
+  email_address: # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github: "sylhare"
+  google_plus:
+  instagram:
+  keybase:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: # "twitter username"
+  vimeo:
+  wordpress:
+  youtube:
 
-#################
-# Site Settings #
-#################
+  # Scripts / Features 
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+  portfolio: true
+  search: true
+  tags: true
+  
+  
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
 
-incremental: true
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - TODO.md
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
-permalink: /:collection/:path
+  # Post navigation
+  post_navigation: true
 
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# PORTFOLIO
 collections:
-  category: { output: true }
-  tag:      { output: true }
+  portfolio:
+    output: true
+    permalink: /:collection/:name
 
-defaults:
-  - scope:  { type:   posts    }
-    values: { layout: post     }
-  - scope:  { type:   tag      }
-    values: { layout: listing  }
-  - scope:  { type:   category }
-    values: { layout: listing  }
-
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
 sass:
-  sass_dir: _assets/css
-
-plugins:
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-sitemap
-
-paginate: 10
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate, jekyll-seo-tag]
+theme: type-on-strap # If using the theme as a jekyll theme gem
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
