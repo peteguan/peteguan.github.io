@@ -32,7 +32,7 @@ I started to play guitar when I was a kid and music has been an important part i
 
 <div class="box">
   <p>
-  Equipments:<br>
+  <h5>Equipments:</h5><br>
 
   Electric Guitars:<br>  
   PRS 513, Fender Stratocaster 70s Black, Fender Partcaster USA Sunburst, Epiphone Les Paul custom 59' Pete Guan, Fender Japan Stratocaster 1957 Candy Red(made in 1994),
