@@ -34,17 +34,17 @@ I started to play guitar when I was a kid and music has been an important part i
   <p>
   <h3>Equipments:</h3>
 
-  <h4>Electric Guitars:</h4>
+  <b>Electric Guitars:</b>
   PRS 513, Fender Stratocaster 70s Black, Fender Partcaster USA Sunburst, Epiphone Les Paul custom 59' Pete Guan, Fender Japan Stratocaster 1957 Candy Red(made in 1994),
   Epiphone Inspired by John Lennon 1965 Casino(VS), Jackson RR24T, Fender Mexico Telecaster 72' Black, Fujigen J-standard Telecaster...  <br>
 
-  <h4>Bass Guitars:</h4>  
+  <b>Bass Guitars:</b>  
   Fender Japan J-Bass, History Japan  <br>
 
-  <h4>Acoustic Guitars:</h4>
+  <b>Acoustic Guitars:</b>
   Yamaha SLG-200, Yamaha SLG-220, Epiphone AJ100CE  <br>
 
-  <h4>Effect Pedals:</h4>  
+  <b>Effect Pedals:</b>  
   Marshall Gov'nor (made in 1994), Boss TE-2, JHS Morning Glory, Boss CE-20, Maxon CS-8 (made in 1987), Boss GT-001  <br>
 
 
