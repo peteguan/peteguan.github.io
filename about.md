@@ -27,7 +27,7 @@ I joined [ctrip.com](http://ctrip.com/) at the very beginning of 2018, working a
 
 
 
-I started to play guitar when I was a kid and music has been an important part in my life. Collecting equipments is what I am interested.
+Collecting equipments is what I am interested.
 
 
 <div class="box">
