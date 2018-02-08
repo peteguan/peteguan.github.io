@@ -1,7 +1,7 @@
 # Site
 title:              Pete.C.Guan's Blog
 bio:                'SRE in Ctrip.com. Cyber security graduate from the University of Birmingham'
-description:        "Recording what I found"
+description:        "Recording what I found."
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
