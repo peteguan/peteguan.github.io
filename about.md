@@ -25,7 +25,7 @@ I joined [ctrip.com](http://ctrip.com/) at the very beginning of 2018, working a
 
 ### Spare Time
 
-
+I am an Aston Villan. Forever and ever.
 
 Collecting equipments is what I am interested.
 
