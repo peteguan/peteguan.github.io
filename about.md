@@ -51,4 +51,17 @@ Collecting equipments is what I am interested.
   </p>
 </div>
 
-<span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
+List of concerts I've ever watched.
+
+<div class="box">
+  <p>
+  <b>Bryan Adams - Get Up 2017 - 15 Jul 2017</b>     Worcester, UK<br>
+  <b>U2 - Joshua Tree Tour 2017 - 9 Jul 2017</b>     London, UK<br>
+  <b>Guns n' Roses - Not in this Life Time - 17 Jun 2017</b>     London, UK<br>
+  <b>X Japan - X Japan World Tour 2017 - 4 Mar 2017</b>     London, UK<br>
+  <b>SUM 41 - Don't Call it a Sum-Back Tour - 24 Feb 2017</b>     O2 Academy Birmingham, UK<br>
+  <b>Red Hot Chilli Peppers - RHCP 2016 UK Tour - 11 Dec 2016</b>     Genting Area Birmingham, UK<br>
+  </p>
+</div>
+
+<span class="image left"><img src="{{ "/images/20180208095127.jpg" | absolute_url }}" alt="" /></span>
