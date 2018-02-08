@@ -39,13 +39,13 @@ Collecting equipments is what I am interested.
   Epiphone Inspired by John Lennon 1965 Casino(VS), Jackson RR24T, Fender Mexico Telecaster 72' Black, Fujigen J-standard Telecaster...  <br>
 
   <b>Bass Guitars:</b>  
-  Fender Japan J-Bass, History Japan  <br>
+  Fender Japan J-Bass, History Japan P-Bass <br>
 
   <b>Acoustic Guitars:</b>
   Yamaha SLG-200, Yamaha SLG-220, Epiphone AJ100CE  <br>
 
   <b>Effect Pedals:</b>  
-  Marshall Gov'nor (made in 1994), Boss TE-2, JHS Morning Glory, Boss CE-20, Maxon CS-8 (made in 1987), Boss GT-001  <br>
+  Marshall Gov'nor (made in 1994), Boss TE-2, JHS Morning Glory, Boss CE-20, Maxon CS-8 (made in 1987), Boss RC-3, Fulltone Fat-boost v1 (made in 1997), Boss GT-001  <br>
 
 
   </p>
