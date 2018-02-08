@@ -36,7 +36,7 @@ Collecting equipments is what I am interested.
 
   <b>Electric Guitars:</b>
   PRS 513, Fender Stratocaster 70s Black, Fender Partcaster USA Sunburst, Epiphone Les Paul custom 59' Pete Guan, Fender Japan Stratocaster 1957 Candy Red(made in 1994),
-  Epiphone Inspired by John Lennon 1965 Casino(VS), Jackson RR24T, Fender Mexico Telecaster 72' Black, Fujigen J-standard Telecaster...  <br>
+  Epiphone Inspired by John Lennon 1965 Casino(VS), Jackson RR24T, Fender Mexico Telecaster 72' Black, PRS SE custom 24, Edwards Telecaster Japan (made in 1998), Fujigen J-standard Telecaster...  <br>
 
   <b>Bass Guitars:</b>  
   Fender Japan J-Bass, History Japan P-Bass <br>
