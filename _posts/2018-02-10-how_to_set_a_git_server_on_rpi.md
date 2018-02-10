@@ -7,7 +7,7 @@ Git repos will have their own private server. Finally I made it."
 image: "/images/20180210173838.jpg"
 ---
 
-## Today, I am here
+## What you need
 
 
-This is my first blog.
+Of course a Raspberry Pi. Mine is a Raspberry Pi 3 model B and this tiny server works fine. If you want to save your cost just choose an older version but you have to make a blance between spending and performance.
