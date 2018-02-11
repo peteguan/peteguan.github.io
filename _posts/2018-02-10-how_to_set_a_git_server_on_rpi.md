@@ -38,7 +38,7 @@ git --bare init
 ```
 I named the folder with my name. Change it to whatever you want.  
 
-## Push your code on the Pi
+## Push your code to the Pi
 
 You need to know the IP of your Pi. If you are using a monitor, simply input <i>ifconfig</i> in the terminal as a normal Linux computer. Or scan the Pi's IP with the tool [Advanced IP Scanner](http://www.advanced-ip-scanner.com/).
 
