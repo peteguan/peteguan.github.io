@@ -29,8 +29,12 @@ root@pete-VirtualBox:/home/pete# aptitude install strongswan
 ```
 Several libraries and tools also need to be installed for Strongswan compilation. I chose to install Opensc (supporting of HSM in strongswan), GMP Library (supporting mathematical operation in strongswan) and OpenSSL libcrypto tool (implementation of cryptography algorithms) by using commands below:
 ```
-apt-get install opensc
-apt-get install libgmp10
-apt-get install libgmp-dev
-apt-get install libssl-dev
+root@pete-VirtualBox:/home/pete# apt-get install opensc
+root@pete-VirtualBox:/home/pete# apt-get install libgmp10
+root@pete-VirtualBox:/home/pete# apt-get install libgmp-dev
+root@pete-VirtualBox:/home/pete# apt-get install libssl-dev
 ```
+Then I downloaded strongswan-5.5.0 to the folder /usr/src/.
+![avatar](/images/ipsec/ipsec1_1_5.png){:height="80%" width="80%" .center-image}<br>
+Extracted the downloaded file, checked files inside the folder and then ran script to enable HSM support and openssl support.
+![avatar](/images/ipsec/ipsec1_1_6.png){:height="80%" width="80%" .center-image}<br>
