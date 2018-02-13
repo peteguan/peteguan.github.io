@@ -71,15 +71,15 @@ This part is about the Public Key Authentication certificate based tunnel. I use
 ![avatar](/images/ipsec/ipsec3_1_1.png){:height=80%" width="80%" .center-image}
 <br>
 The next step was modificating configuration files <i>ipsec.conf</i> and <i>ipsec.secrets</i>
-![avatar](/images/ipsec/ipsec3_1_2.png){:height=80%" width="80%" .center-image}
+![avatar](/images/ipsec/ipsec3_1_2.png){:height=40%" width="40%" .center-image}
 <br>
-![avatar](/images/ipsec/ipsec3_1_3.png){:height=80%" width="80%" .center-image}
+![avatar](/images/ipsec/ipsec3_1_3.png){:height=40%" width="40%" .center-image}
 <br>
 ### 3.2 B side
 Then I did similar operations in B side like this,<br>
 ![avatar](/images/ipsec/ipsec3_2_1.png){:height=80%" width="80%" .center-image}
 <br>
-![avatar](/images/ipsec/ipsec3_2_2.png){:height=80%" width="80%" .center-image}
+![avatar](/images/ipsec/ipsec3_2_2.png){:height=40%" width="80%" .center-image}
 <br>
 ![avatar](/images/ipsec/ipsec3_2_3.png){:height=80%" width="80%" .center-image}
 <br>
