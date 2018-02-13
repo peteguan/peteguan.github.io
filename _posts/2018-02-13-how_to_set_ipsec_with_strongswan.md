@@ -89,3 +89,11 @@ I restarted IPSec for both sides, then read the ipsec status. The results below 
 <br>
 ![avatar](/images/ipsec/ipsec3_3_2.png){:height=80%" width="80%" .center-image}
 <br>
+
+## 4	IPSEC.CONF FILE
+### 4.1 A side
+![avatar](/images/ipsec/ipsec4_1_1.png){:height=80%" width="80%" .center-image}
+<br>
+### 4.2 B side
+![avatar](/images/ipsec/ipsec4_2_1.png){:height=80%" width="80%" .center-image}
+<br>
