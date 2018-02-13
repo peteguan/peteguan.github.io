@@ -60,3 +60,5 @@ Then set Pre-Shared key as <i>“ipsec”</i> in the file <i>ipsec.secrets</i> i
 ### 2.3 2.3	RESTART CHARON
 
 Using commands to restart the <i>Charon</i> daemon and view the VPN status in both A side & B side
+![avatar](/images/ipsec/ipsec2_3_1.png){:height="50%" width="43%" }
+![avatar](/images/ipsec/ipsec2_3_2.png){:height="50%" width="43%" }
