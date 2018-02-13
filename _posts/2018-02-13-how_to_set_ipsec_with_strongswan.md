@@ -64,3 +64,7 @@ Using commands to restart the <i>Charon</i> daemon and view the VPN status in bo
 ![avatar](/images/ipsec/ipsec2_3_2.png){:height="130%" width="48%" }
 <br>
 Now the connection had been established!
+
+## 3	X.509 CERTIFICATE BASED TUNNEL
+### 3.1 A side
+This part is about the Public Key Authentication certificate based tunnel. I used commands to create self-sign certificate and results shown below.
