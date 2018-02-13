@@ -45,6 +45,8 @@ Used commands <i>make</i> and <i>make install</i> to compile and install strongs
 ### A side
 
 The <i>ipsec.conf</i> file in A side shows below, Cipher suite was chosen <i>AES256-SHA2_256</i>.
-![avatar](/images/ipsec/ipsec2_1_1.png){:height="80%" width="80%" .center-image}
+![avatar](/images/ipsec/ipsec2_1_1.png){:height="50%" width="50%" .center-image}
 <br>
-Then set Pre-Shared key as <i>“ipsec”</i> in the file <i>ipsec.secrets</i> in the path <i>/etc/</i> 
+Then set Pre-Shared key as <i>“ipsec”</i> in the file <i>ipsec.secrets</i> in the path <i>/etc/</i>
+![avatar](/images/ipsec/ipsec2_1_2.png){:height="50%" width="50%" .center-image}
+<br>
