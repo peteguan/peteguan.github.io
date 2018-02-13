@@ -117,4 +117,5 @@ I restarted IPSec for both sides, then read the ipsec status. The results below 
 <br><br>
 <br><br>
 <br><br>
-<br>ref:   https://technet.microsoft.com/en-us/library/cc776369(v=ws.10).aspx
+<br>ref:   <br>https://technet.microsoft.com/en-us/library/cc776369(v=ws.10).aspx<br>
+https://www.strongswan.org
