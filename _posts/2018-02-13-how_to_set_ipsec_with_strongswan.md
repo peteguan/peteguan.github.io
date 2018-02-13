@@ -34,7 +34,7 @@ root@pete-VirtualBox:/home/pete# apt-get install libgmp10
 root@pete-VirtualBox:/home/pete# apt-get install libgmp-dev
 root@pete-VirtualBox:/home/pete# apt-get install libssl-dev
 ```
-Then I downloaded strongswan-5.5.0 to the folder /usr/src/.
+Then I downloaded strongswan-5.5.0 to the folder <i>/usr/src/</i>.
 ![avatar](/images/ipsec/ipsec1_1_5.png){:height="80%" width="80%" .center-image}<br>
 Extracted the downloaded file, checked files inside the folder and then ran script to enable HSM support and openssl support.
 ![avatar](/images/ipsec/ipsec1_1_6.png){:height="80%" width="80%" .center-image}<br>
