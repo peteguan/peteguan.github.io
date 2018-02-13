@@ -92,8 +92,8 @@ I restarted IPSec for both sides, then read the ipsec status. The results below 
 
 ## 4	IPSEC.CONF FILE
 ### 4.1 A side
-![avatar](/images/ipsec/ipsec4_1_1.png){:height=80%" width="80%" .center-image}
+![avatar](/images/ipsec/ipsec4_1_1.png){:height=30%" width="30%" .center-image}
 <br>
 ### 4.2 B side
-![avatar](/images/ipsec/ipsec4_2_1.png){:height=80%" width="80%" .center-image}
+![avatar](/images/ipsec/ipsec4_2_1.png){:height=30%" width="30%" .center-image}
 <br>
