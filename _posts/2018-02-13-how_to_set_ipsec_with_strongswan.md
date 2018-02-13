@@ -38,3 +38,4 @@ Then I downloaded strongswan-5.5.0 to the folder <i>/usr/src/</i>.
 ![avatar](/images/ipsec/ipsec1_1_5.png){:height="80%" width="80%" .center-image}<br>
 Extracted the downloaded file, checked files inside the folder and then ran script to enable HSM support and openssl support.
 ![avatar](/images/ipsec/ipsec1_1_6.png){:height="80%" width="80%" .center-image}<br>
+Used commands <i>make</i> and <i>make install</i> to compile and install strongswan under <i>/usr/local/</i> directory. I did the same operation in both of A side and B side VM so that they could support tunnel mode.
