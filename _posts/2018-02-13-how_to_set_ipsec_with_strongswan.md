@@ -26,3 +26,10 @@ After updating the operate system, the next step is to install StrongSwan.
 ```
 root@pete-VirtualBox:/home/pete# aptitude install strongswan
 ```
+Several libraries and tools also need to be installed for Strongswan compilation. I chose to install Opensc (supporting of HSM in strongswan), GMP Library (supporting mathematical operation in strongswan) and OpenSSL libcrypto tool (implementation of cryptography algorithms) by using commands below:
+```
+apt-get install opensc
+apt-get install libgmp10
+apt-get install libgmp-dev
+apt-get install libssl-dev
+```
