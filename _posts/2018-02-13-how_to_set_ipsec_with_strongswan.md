@@ -79,7 +79,13 @@ The next step was modificating configuration files <i>ipsec.conf</i> and <i>ipse
 Then I did similar operations in B side like this,<br>
 ![avatar](/images/ipsec/ipsec3_2_1.png){:height=80%" width="80%" .center-image}
 <br>
-![avatar](/images/ipsec/ipsec3_2_2.png){:height=40%" width="80%" .center-image}
+![avatar](/images/ipsec/ipsec3_2_2.png){:height=40%" width="40%" .center-image}
 <br>
-![avatar](/images/ipsec/ipsec3_2_3.png){:height=80%" width="80%" .center-image}
+![avatar](/images/ipsec/ipsec3_2_3.png){:height=40%" width="40%" .center-image}
+<br>
+### 3.3 Test
+I restarted IPSec for both sides, then read the ipsec status. The results below shown that the connection was established successfully.
+![avatar](/images/ipsec/ipsec3_3_1.png){:height=80%" width="80%" .center-image}
+<br>
+![avatar](/images/ipsec/ipsec3_3_2.png){:height=80%" width="80%" .center-image}
 <br>
