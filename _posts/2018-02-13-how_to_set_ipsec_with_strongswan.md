@@ -23,16 +23,17 @@ Setting IPv4 address for the Router as 192.168.0.1 at first. Powered up both Lin
 
 ###	1.2	STRONGSWAN INSTALLATION & CONFIGURATION
 
-After updating the operate system, the next step is to install StrongSwan.
+After updating the operate system, the next step is to install <b>StrongSwan</b>.<br>
+Commands should be input under <i>root</i> permission.
 ```
-root@pete-VirtualBox:/home/pete# aptitude install strongswan
+aptitude install strongswan
 ```
 Several libraries and tools also need to be installed for Strongswan compilation. I chose to install Opensc (supporting of HSM in strongswan), GMP Library (supporting mathematical operation in strongswan) and OpenSSL libcrypto tool (implementation of cryptography algorithms) by using commands below:
 ```
-root@pete-VirtualBox:/home/pete# apt-get install opensc
-root@pete-VirtualBox:/home/pete# apt-get install libgmp10
-root@pete-VirtualBox:/home/pete# apt-get install libgmp-dev
-root@pete-VirtualBox:/home/pete# apt-get install libssl-dev
+apt-get install opensc
+apt-get install libgmp10
+apt-get install libgmp-dev
+apt-get install libssl-dev
 ```
 Then I downloaded strongswan-5.5.0 to the folder <i>/usr/src/</i>.
 ![avatar](/images/ipsec/ipsec1_1_5.png){:height="80%" width="80%" .center-image}<br>
