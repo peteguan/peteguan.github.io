@@ -61,6 +61,6 @@ Then set Pre-Shared key as <i>“ipsec”</i> in the file <i>ipsec.secrets</i> i
 
 Using commands to restart the <i>Charon</i> daemon and view the VPN status in both A side & B side
 ![avatar](/images/ipsec/ipsec2_3_1.png){:height="70%" width="48%" }
-![avatar](/images/ipsec/ipsec2_3_2.png){:height="100%" width="48%" }
+![avatar](/images/ipsec/ipsec2_3_2.png){:height="130%" width="48%" }
 <br>
 Now the connection had been established!
