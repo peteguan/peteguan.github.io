@@ -21,7 +21,7 @@ IPSec helps provide defense-in-depth against:
 
 You can use IPSec to defend against network-based attacks through a combination of host-based IPSec packet filtering and the enforcement of trusted communications.
 
-[<i><b>strongSwan</b></i>](https://www.strongswan.org/download.html) is a open source IPsec-based VPN solution, runs on Linux 2.6, 3.x and 4.x kernels, Android, FreeBSD, OS X, iOS and Windows, which could implements both the <i>IKEv1</i> and <i>IKEv2 (RFC 7296)</i> key exchange protocols. It could be downloaded by clicking https://www.strongswan.org/download.html.
+[<i><b>strongSwan</b></i>](https://www.strongswan.org/download.html) is an open source IPsec-based VPN solution, runs on Linux 2.6, 3.x and 4.x kernels, Android, FreeBSD, OS X, iOS and Windows, which could implements both the <i>IKEv1</i> and <i>IKEv2 (RFC 7296)</i> key exchange protocols. It could be downloaded by clicking https://www.strongswan.org/download.html.
 ## 1	PREPARATION
 
 ###	1.1	UBUNTU VIRTUAL MACHINES
