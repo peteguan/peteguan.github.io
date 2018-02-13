@@ -15,4 +15,6 @@ In this experiment, three communicating Linux virtual machines should be availab
 ![avatar](/images/ipsec/ipsec1_1_1.png){:height="80%" width="80%" .center-image}
 <br>
 
-Setting IPv4 address of the Router as 192.168.0.1 at first. Powered up both Linux VPN VM, IPv4 address of A side was set as 192.168.0.5 and 192.168.0.6 for B side.
+Setting IPv4 address for the Router as 192.168.0.1 at first. Powered up both Linux VPN VM, IPv4 address of A side was set as 192.168.0.5 and 192.168.0.6 for B side.
+![avatar](/images/ipsec/ipsec1_1_3.png){:height="50%" width="50%" .image.left}
+![avatar](/images/ipsec/ipsec1_1_4.png){:height="50%" width="50%" .image.right}
