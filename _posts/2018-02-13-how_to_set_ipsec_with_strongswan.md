@@ -10,7 +10,7 @@ image: "/images/ipsec/strongswan-vpn.png"
 
 ###	1.1	UBUNTU VIRTUAL MACHINES
 
-In this experiment, three communicating Linux virtual machines should be available. I chose the latest version of Ubuntu Linux 64-bit installed in Oracle VM VirtualBox named Router, IPsec_1 (A side) and IPsec_2 (B side) shown in the figure below.<br>
+In this experiment, three communicating Linux virtual machines should be available. I chose the latest version of Ubuntu Linux 64-bit installed in Oracle VM VirtualBox named <b>Router</b>, <b>IPsec_1</b> <i>(A side)</i> and <b>IPsec_2</b> <i>(B side)</i> shown in the figure below.<br>
 
 ![avatar](/images/ipsec/ipsec1_1_1.png){:height="80%" width="80%" .center-image}
 <br>
@@ -40,3 +40,8 @@ Then I downloaded strongswan-5.5.0 to the folder <i>/usr/src/</i>.
 Extracted the downloaded file, checked files inside the folder and then ran script to enable HSM support and openssl support.
 ![avatar](/images/ipsec/ipsec1_1_6.png){:height="80%" width="80%" .center-image}<br>
 Used commands <i>make</i> and <i>make install</i> to compile and install strongswan under <i>/usr/local/</i> directory. I did the same operation in both of A side and B side VM so that they could support tunnel mode.
+## 2	PRE-SHARED KEY BASED TUNNEL
+
+### A side
+
+The <i>ipsec.conf</i> file in A side shows below, Cipher suite was chosen AES256-SHA2_256.
