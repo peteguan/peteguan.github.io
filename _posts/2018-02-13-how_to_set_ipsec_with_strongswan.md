@@ -5,7 +5,21 @@ date:   2018-02-13
 excerpt: "This tiny project was one of my network security assignments when I was in Bham. It might be replaced by SSL recent years but still a well designed technology"
 image: "/images/ipsec/strongswan-vpn.png"
 ---
+<b>Internet Protocol security</b> (IPSec) is a framework of open standards for helping to ensure private, secure communications over Internet Protocol (IP) networks through the use of cryptographic security services. IPSec supports network-level data integrity, data confidentiality, data origin authentication, and replay protection. Because IPSec is integrated at the Internet layer (layer 3), it provides security for almost all protocols in the TCP/IP suite, and because IPSec is applied transparently to applications, there is no need to configure separate security for each application that uses TCP/IP.
 
+IPSec helps provide defense-in-depth against:
+
+<b>Network-based attacks from untrusted computers, attacks that can result in the denial-of-service of applications, services, or the network</b>
+
+<b>Data corruption</b>
+
+<b>Data theft</b>
+
+<b>User-credential theft</b>
+
+<b>Administrative control of servers, other computers, and the network.</b>
+
+You can use IPSec to defend against network-based attacks through a combination of host-based IPSec packet filtering and the enforcement of trusted communications.
 ## 1	PREPARATION
 
 ###	1.1	UBUNTU VIRTUAL MACHINES
@@ -97,3 +111,8 @@ I restarted IPSec for both sides, then read the ipsec status. The results below 
 ### 4.2 B side
 ![avatar](/images/ipsec/ipsec4_2_1.png){:height=70%" width="70%" .center-image}
 <br>
+<br>
+<br><br>
+<br><br>
+<br><br>
+<br>ref:   https://technet.microsoft.com/en-us/library/cc776369(v=ws.10).aspx
