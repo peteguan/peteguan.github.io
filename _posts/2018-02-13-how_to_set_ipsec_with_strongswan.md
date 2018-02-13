@@ -8,7 +8,7 @@ image: "/images/ipsec/strongswan-vpn.png"
 
 ## 1	PREPARATION
 
-### 1.1	1.1	UBUNTU VIRTUAL MACHINES
+###	1.1	UBUNTU VIRTUAL MACHINES
 
 In this experiment, three communicating Linux virtual machines should be available. I chose the latest version of Ubuntu Linux 64-bit installed in Oracle VM VirtualBox named Router, IPsec_1 (A side) and IPsec_2 (B side) shown in the figure below.<br>
 
@@ -18,3 +18,11 @@ In this experiment, three communicating Linux virtual machines should be availab
 Setting IPv4 address for the Router as 192.168.0.1 at first. Powered up both Linux VPN VM, IPv4 address of A side was set as 192.168.0.5 and 192.168.0.6 for B side.<br>
 ![avatar](/images/ipsec/ipsec1_1_3.png){:height="60%" width="80%" .image.left}
 ![avatar](/images/ipsec/ipsec1_1_4.png){:height="60%" width="80%" .image.right}
+
+
+###	1.2	STRONGSWAN INSTALLATION & CONFIGURATION
+
+After updating the operate system, the next step is to install StrongSwan.
+```
+root@pete-VirtualBox:/home/pete# aptitude install strongswan
+```
