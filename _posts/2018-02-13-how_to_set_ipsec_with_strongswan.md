@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to set IPSec with Strongswan"
+title:  "How to set IPSec with strongSwan"
 date:   2018-02-13
 excerpt: "This tiny project was one of my network security assignments when I was in Bham. It might be replaced by SSL recent years but still a well designed technology"
 image: "/images/ipsec/strongswan-vpn.png"
