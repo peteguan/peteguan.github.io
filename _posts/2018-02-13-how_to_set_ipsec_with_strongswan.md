@@ -16,8 +16,8 @@ In this experiment, three communicating Linux virtual machines should be availab
 <br>
 
 Setting IPv4 address for the Router as 192.168.0.1 at first. Powered up both Linux VPN VM, IPv4 address of A side was set as 192.168.0.5 and 192.168.0.6 for B side.<br>
-![avatar](/images/ipsec/ipsec1_1_2.png){:height="100%" width="150%" .image.fit}
-![avatar](/images/ipsec/ipsec1_1_4.png){:height="100%" width="150%" .image.fit}
+![avatar](/images/ipsec/ipsec1_1_2.png){:height="100%" width="100%" }
+![avatar](/images/ipsec/ipsec1_1_4.png){:height="100%" width="100%" }
 <br><br>
 
 
@@ -28,7 +28,7 @@ Commands should be input under <i>root</i> permission.
 ```
 aptitude install strongswan
 ```
-Several libraries and tools also need to be installed for Strongswan compilation. I chose to install Opensc (supporting of HSM in strongswan), GMP Library (supporting mathematical operation in strongswan) and OpenSSL libcrypto tool (implementation of cryptography algorithms) by using commands below:
+Several libraries and tools also need to be installed for Strongswan compilation. I chose to install <i>Opensc</i> (supporting of HSM in strongswan), <i>GMP Library</i> (supporting mathematical operation in strongswan) and <i>OpenSSL libcrypto</i> tool (implementation of cryptography algorithms) by using commands below:
 ```
 apt-get install opensc
 apt-get install libgmp10
