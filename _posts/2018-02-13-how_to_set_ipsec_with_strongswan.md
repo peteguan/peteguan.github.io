@@ -9,15 +9,15 @@ image: "/images/ipsec/strongswan-vpn.png"
 
 IPSec helps provide defense-in-depth against:
 
-<b>Network-based attacks from untrusted computers, attacks that can result in the denial-of-service of applications, services, or the network</b>
++ <b>Network-based attacks from untrusted computers, attacks that can result in the denial-of-service of applications, services, or the network</b>
 
-<b>Data corruption</b>
++ <b>Data corruption</b>
 
-<b>Data theft</b>
++ <b>Data theft</b>
 
-<b>User-credential theft</b>
++ <b>User-credential theft</b>
 
-<b>Administrative control of servers, other computers, and the network.</b>
++ <b>Administrative control of servers, other computers, and the network.</b>
 
 You can use IPSec to defend against network-based attacks through a combination of host-based IPSec packet filtering and the enforcement of trusted communications.
 ## 1	PREPARATION
