@@ -2469,6 +2469,10 @@
 			.image.main img {
 				width: 100%;
 			}
+			.center-image{
+				margin: 0 auto;
+				display: block;
+			}
 
 		@media screen and (max-width: 736px) {
 
