@@ -16,8 +16,8 @@ In this experiment, three communicating Linux virtual machines should be availab
 <br>
 
 Setting IPv4 address for the Router as 192.168.0.1 at first. Powered up both Linux VPN VM, IPv4 address of A side was set as 192.168.0.5 and 192.168.0.6 for B side.<br>
-![avatar](/images/ipsec/ipsec1_1_2.png){:height="50%" width="40%" }
-![avatar](/images/ipsec/ipsec1_1_4.png){:height="50%" width="40%" }
+![avatar](/images/ipsec/ipsec1_1_2.png){:height="50%" width="43%" }
+![avatar](/images/ipsec/ipsec1_1_4.png){:height="50%" width="43%" }
 <br><br>
 
 
@@ -42,11 +42,21 @@ Extracted the downloaded file, checked files inside the folder and then ran scri
 Used commands <i>make</i> and <i>make install</i> to compile and install strongswan under <i>/usr/local/</i> directory. I did the same operation in both of A side and B side VM so that they could support tunnel mode.
 ## 2	PRE-SHARED KEY BASED TUNNEL
 
-### A side
+### 2.1 A side
 
 The <i>ipsec.conf</i> file in A side shows below, Cipher suite was chosen <i>AES256-SHA2_256</i>.
-![avatar](/images/ipsec/ipsec2_1_1.png){:height=40%" width="50%" .center-image}
+![avatar](/images/ipsec/ipsec2_1_1.png){:height=30%" width="40%" .center-image}
 <br>
 Then set Pre-Shared key as <i>“ipsec”</i> in the file <i>ipsec.secrets</i> in the path <i>/etc/</i>
-![avatar](/images/ipsec/ipsec2_1_2.png){:height="30%" width="30%" .center-image}
+![avatar](/images/ipsec/ipsec2_1_2.png){:height="40%" width="40%" .center-image}
 <br>
+### 2.2 B side
+The <i>ipsec.conf</i> file of B side shows below,
+![avatar](/images/ipsec/ipsec2_2_1.png){:height=30%" width="40%" .center-image}
+<br>
+Then set Pre-Shared key as <i>“ipsec”</i> in the file <i>ipsec.secrets</i> in the path <i>/etc/</i>
+![avatar](/images/ipsec/ipsec2_2_2.png){:height="40%" width="40%" .center-image}
+<br>
+### 2.3 2.3	RESTART CHARON
+
+Using commands to restart the <i>Charon</i> daemon and view the VPN status in both A side & B side
