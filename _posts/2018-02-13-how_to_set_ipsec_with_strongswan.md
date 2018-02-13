@@ -68,3 +68,5 @@ Now the connection had been established!
 ## 3	X.509 CERTIFICATE BASED TUNNEL
 ### 3.1 A side
 This part is about the Public Key Authentication certificate based tunnel. I used commands to create self-sign certificate and results shown below.
+![avatar](/images/ipsec/ipsec3_1_1.png){:height=80%" width="80%" .center-image}
+<br>
