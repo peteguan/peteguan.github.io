@@ -70,3 +70,8 @@ Now the connection had been established!
 This part is about the Public Key Authentication certificate based tunnel. I used commands to create self-sign certificate and results shown below.
 ![avatar](/images/ipsec/ipsec3_1_1.png){:height=80%" width="80%" .center-image}
 <br>
+The next step was modificating configuration files <i>ipsec.conf</i> and <i>ipsec.secrets</i>
+![avatar](/images/ipsec/ipsec3_1_2.png){:height=80%" width="80%" .center-image}
+<br>
+![avatar](/images/ipsec/ipsec3_1_3.png){:height=80%" width="80%" .center-image}
+<br>
