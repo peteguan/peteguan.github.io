@@ -19,3 +19,8 @@ Or <i>clone</i> the whole project from <i>Github</i>,
 git clone https://github.com/sivel/speedtest-cli.git
 python speedtest-cli/setup.py install
 ```
+If you haven't install commands <i>pip</i> or <i>git</i>, the traditional installation way is effected as well.
+```
+wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
+chmod +x speedtest-cli
+```
