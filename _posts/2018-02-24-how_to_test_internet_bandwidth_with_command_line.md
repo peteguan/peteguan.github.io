@@ -84,7 +84,7 @@ For example, if you want to list all the test nodes in your country/region, try 
 Share(Show off) you bandwidth? Use <i>--share</i>,
 ![speedtest-cli_share](/images/speedtest/2018-02-24_14h52_34.png){:height="80%" width="80%" .center-image}
 Notice the URL? Visit it and you could get a graphical Internet bandwidth testing result like the cover shows,
-![speedtest-cli_image](/images/speedtest/7085753952.png){:height="80%" width="80%" .center-image}
+![speedtest-cli_image](/images/speedtest/7085753952.png){:height="50%" width="50%" .center-image}
 
 ### Python API
 This tool also provides python APIs which might help you to <i>aviod <b>MemoryError</b></i>, <i>set a mini server</i> or <i>set <b>Bind</b> source</i>. Read the [wiki](https://github.com/sivel/speedtest-cli/wiki) to learn how to use them.
