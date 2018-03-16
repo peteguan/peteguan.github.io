@@ -63,6 +63,7 @@ List of concerts I've ever watched.
   <b>SUM 41 - Don't Call it a Sum-Back Tour - 24 Feb 2017</b>     O2 Academy Birmingham, UK<br>
   <b>Red Hot Chilli Peppers - RHCP 2016 UK Tour - 11 Dec 2016</b>     Genting Area Birmingham, UK<br>
   <b>反光镜 Reflector - 幻.镜 2015 - 15 May 2015</b>     Hertz Bar Dalian, P.R.China<br>
+  <b>二手玫瑰 Second Hand Rose - 摇滚无用 - 21 Mar 2014</b>     宏济大舞台 Dalian, P.R.China<br>
   </p>
 </div>
 
