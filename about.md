@@ -58,8 +58,8 @@ List of concerts I've ever watched.
   <b>James Blunt - The AfterLove Tour - 04 Apr 2018</b>     Mercedes-Benz Arena Shanghai, P.R.China<br>
   <b>反光镜 Reflector - 再.见 ONE MORE TIME - 16 Mar 2018</b>     ModernSky Lab Shanghai, P.R.China<br>
   <b>Bryan Adams - Get Up 2017 - 15 Jul 2017</b>     Worcester, UK<br>
-  <b>U2 - Joshua Tree Tour 2017 - 9 Jul 2017</b>     London, UK<br>
-  <b>Guns n' Roses - Not in this Life Time - 17 Jun 2017</b>     London, UK<br>
+  <b>U2 - Joshua Tree Tour 2017 - 9 Jul 2017</b>     Twickenham Stadium London, UK<br>
+  <b>Guns n' Roses - Not in this Life Time - 17 Jun 2017</b>     Queen Elizabeth Olympic Park London, UK<br>
   <b>X Japan - X Japan World Tour 2017 - 4 Mar 2017</b>     Wembley SSE Arena London, UK<br>
   <b>SUM 41 - Don't Call it a Sum-Back Tour - 24 Feb 2017</b>     O2 Academy Birmingham, UK<br>
   <b>Red Hot Chilli Peppers - RHCP 2016 UK Tour - 11 Dec 2016</b>     Genting Area Birmingham, UK<br>
