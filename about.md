@@ -65,6 +65,7 @@ List of concerts I've ever watched.
   <b>Red Hot Chilli Peppers - RHCP 2016 UK Tour - 11 Dec 2016</b>     Genting Area Birmingham, UK<br>
   <b>反光镜 Reflector - 幻.镜 2015 - 15 May 2015</b>     Hertz Bar Dalian, P.R.China<br>
   <b>二手玫瑰 Second Hand Rose - 摇滚无用 - 21 Mar 2014</b>     宏济大舞台 Dalian, P.R.China<br>
+  <b>張學友 Jacky Cheung - 1/2世纪世界巡回演唱会 1/2 Century Tour - 19 Jun 2011</b>     Olympic Sports Centre Shenyang, P.R.China<br>
   </p>
 </div>
 
