@@ -45,7 +45,7 @@ Collecting musical equipments is what I am interested.
   Yamaha SLG-200, Yamaha SLG-220, Epiphone AJ100CE  <br>
 
   <b>Effect Pedals:</b>  
-  Marshall Gov'nor (made in 1994), Boss TE-2, JHS Morning Glory, Boss CE-20, Maxon CS-8 (made in 1987), Boss RC-3, Fulltone Fat-boost v1 (made in 1997), Boss GT-001, Digitech Trio, Digitech Holy grial, Digitech Crossroad Eric Clapton signature pedal, Boss ME-25, Line6 POD 2.0, Line6 POD XT, TC Electronic Nova System  <br>
+  Marshall Gov'nor (made in 1994), Mesa Boogie V twin Pre Amp (made in 1997), Boss TE-2, JHS Morning Glory, Boss CE-20, Boss GE-7, Visual Sound H2O v2, Voodoo Lab Micro Vibe, Maxon CS-8 (made in 1987), Boss RC-3, Fulltone Fat-boost v1 (made in 1997), Boss GT-001, Digitech Trio, Digitech Holy grial, Digitech Crossroad Eric Clapton signature pedal, Boss ME-25, Line6 POD 2.0, Line6 POD XT, TC Electronic Nova System  <br>
 
 
   </p>
