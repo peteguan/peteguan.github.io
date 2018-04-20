@@ -19,7 +19,7 @@ image: "/images/A10-Logo.jpg"
 
 * Laptop
 
-* Finisar 10G Fibre Channel Optical Transceiver x 4
+* Finisar 1G Fibre Channel Optical Transceiver x 4
 
 * Console cable x 1
 
