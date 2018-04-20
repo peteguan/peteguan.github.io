@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting A10 VRRP-A High Availability & aVCS with CLI"
-date:   2018-02-10
+date:   2018-04-20
 excerpt: "This is an experiment of A10 devices VRRP-A High Availability and aVCS configuration."
 image: "/images/A10-Logo.jpg"
 ---
