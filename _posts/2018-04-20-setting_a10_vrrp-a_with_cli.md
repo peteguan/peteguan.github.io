@@ -15,7 +15,17 @@ image: "/images/A10-Logo.jpg"
 
 ## Experiment Materials
 
+* AX 3530 with system version 2.7.1-GR(build:58) x 2
 
+* Laptop
+
+* Finisar 10G Fibre Channel Optical Transceiver x 4
+
+* Console cable x 1
+
+* Fibre cable x 2
+
+* Ethernet cable x 1
 ## Add a new git repository
 
 Let's come to the path you just created,  
