@@ -26,17 +26,24 @@ image: "/images/A10-Logo.jpg"
 * Fibre cable x 2
 
 * Ethernet cable x 1
-## Add a new git repository
 
-Let's come to the path you just created,  
+## Experiment Process
+
+First, we connected A10 devices to laptop via a console cable plugged into the console port to check system version and deploy basic configurations like timezone.
 ```
-cd /home/git
+clock timezone Asia/Shanghai
 ```
-We need to create a new folder for the repository, and make it a real repository folder.  
+
+We named these two devices <i>ADC005</i> and <i>ADC006</i> with configurating management IP addresses 192.168.0.5 and 192.168.0.6 in configuration mode.
+
 ```
-mkdir pete.git
-cd pete.git
-git --bare init
+hostname ADC005
+interface ethernet mgmt-
+```
+
+```
+interface ethernet 5
+lacp trunk 1 mode actice
 ```
 I named the folder with my name. Change it to whatever you want.  
 
