@@ -42,12 +42,22 @@ interface ethernet management
 ip address 192.168.0.5 /24
 ip default-gateway 192.168.0.1
 ```
+We uses the similar commands in <i>ADC006</i>,
+```
+hostname ADC006
+interface ethernet management
+ip address 192.168.0.6 /24
+ip default-gateway 192.168.0.1
+```
 
 ```
 interface ethernet 5
 lacp trunk 1 mode actice
 ```
 I named the folder with my name. Change it to whatever you want.  
+## Upgrade System Version
+
+
 
 ## Experiment Tips
 
