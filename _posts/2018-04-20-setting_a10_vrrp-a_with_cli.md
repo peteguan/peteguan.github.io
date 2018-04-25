@@ -84,12 +84,3 @@ show running-config
 show interfaces brief
 show
 ```
-
-## Test it
-
-Try to clone the repository on your PC with Git Bush terminal with a line command   
-```
-git clone git@[IP of the Pi]:/home/git/pete.git
-```
-<br><br><br><br><br><br><br><br><br>
-ref: http://shumeipai.nxez.com/2014/02/15/git-build-private-server-raspberry-pi.html
