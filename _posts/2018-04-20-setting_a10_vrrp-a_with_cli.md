@@ -38,8 +38,9 @@ We named these two devices <i>ADC005</i> and <i>ADC006</i> with configurating ma
 
 ```
 hostname ADC005
-interface ethernet mgmt
-
+interface ethernet management
+ip address 192.168.0.5 /24
+ip default-gateway 192.168.0.1
 ```
 
 ```
