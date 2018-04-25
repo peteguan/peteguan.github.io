@@ -65,7 +65,8 @@ vlan 99
 tagged trunk 1
 router-interface ve 99
 ```
-Then we started to set VRRP-A.
+Then we started to set VRRP-A.<br>
+Before enabling the function VRRP-A, we set <b>set-id</b> and <b>device-id</b> for each A10 3530. We set the set as 1, <b>ADC005</b> as <b>device 1</b> and <b>ADC006</b> as device 2.
 
 ## Upgrade System Version
 
