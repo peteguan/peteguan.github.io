@@ -52,11 +52,14 @@ ip default-gateway 192.168.0.1
 Now we could use a USB port on laptop connect <i>ADC005</i> console port and ethernet port on laptop connect <i>ADC006</i> management port.<br>
 <b></b>
 The next step is to build VRRP-A High Availability.<br>
-We trunked <b>ethernet 5</b> and <b>6</b> together as <b>vlan 99</b>
+We trunked <b>ethernet 5</b> and <b>6</b> together as <b>vlan 99</b> dynamically and set both ethernet ports an active mode.<br>
+Te same commands for both ADC devices.
 ```
 interface ethernet 5
+enable
 lacp trunk 1 mode actice
 interface ethernet 6
+enable
 lacp trunk 1 mode actice
 vlan 99
 tagged trunk 1
