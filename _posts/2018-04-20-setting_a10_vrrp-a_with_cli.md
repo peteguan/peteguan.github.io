@@ -49,6 +49,8 @@ interface ethernet management
 ip address 192.168.0.6 /24
 ip default-gateway 192.168.0.1
 ```
+Now we could use a USB port on laptop connect <i>ADC005</i> console port and ethernet port on laptop connect <i>ADC006</i> management port.<br>
+
 
 ```
 interface ethernet 5
