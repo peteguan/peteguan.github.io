@@ -137,10 +137,18 @@ Before upgrading system, the most important step is to check the current system 
 show version
 backup system use-mgmt-port config ftp://x.x.x.x/
 ```
+As the shown that the system version on both devices was <i>version 2.7.1-GR1, build 58 (Apr-26-2015,07:23)</i> and we would like to upgrade them to <i>4.1.4</i>. We built a FTP server on laptop so that the A10 devices could download <i>.upg</i> system file from laptop via management interface.  
 The following sequence is important.
 1. Disable VCS on the <i>ADC005-Standby-vBlade[1/1]</i> device.
 2. Disable VCS on the <i>ADC005-Active-vMaster[1/2]</i> device.
-
+3. Modified system boot sequence on <i>ADC005-Standby</i> then save memory.
+4. Upgrade
+```
+bootimage hd sec
+write memory
+write memory secondary
+```
+4. Modified system boot sequence on <i>ADC006-Active</i> then save memory.
 ## Experiment Tips
 
 * Remember always save memory and secondary memory when setting configurations.
