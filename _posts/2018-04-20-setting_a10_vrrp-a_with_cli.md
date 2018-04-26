@@ -55,7 +55,7 @@ Now we could use a USB port on laptop connect <i>ADC005</i> console port and eth
 <b></b><i></i>
 The next step is to build VRRP-A High Availability.<br>
 We trunked <b>ethernet 5</b> and <b>6</b> together as <b>vlan 99</b> dynamically and set both ethernet ports an active mode. A virtual ethernet port <b>ve 99</b> for setting VLAN IP address is nessesary as well.<br>
-The same commands for both ADC devices.
+The same commands for both ADC devices. (the <b>ve 99</b>IP address should be different)
 ```
 interface ethernet 5
 enable
@@ -63,6 +63,8 @@ lacp trunk 1 mode actice
 interface ethernet 6
 enable
 lacp trunk 1 mode actice
+interface ve 99
+ip address 1.1.1.1 /24
 vlan 99
 tagged trunk 1
 router-interface ve 99
@@ -110,7 +112,7 @@ enable
 exit
 vcs reload
 ```
-Since we reload <b>ADC006</b> VCS after <b>ADC005</b>, <b>ADC005</b> became <i>ADC005-Standby-vBlade[1/1]</i> and <b>ADC005</b>, <b>ADC006</b> became <i>ADC005-Active-vMaster[1/1]</i>.
+After handshaking and synchronisation, VCS had been built up. Since we reloaded <b>ADC006</b> VCS after <b>ADC005</b>, <b>ADC005</b> became <i>ADC005-Standby-vBlade[1/1]</i> and <b>ADC005</b>, <b>ADC006</b> became <i>ADC005-Active-vMaster[1/2]</i>. The VSC status and
 ### Upgrade System Version
 
 
