@@ -96,6 +96,7 @@ vrrp-a vrid default
    fail-over-policy-template failover-non-preemption
 !
 ```
+Now we could find that the VRRP-A status of these two devices had became <i>Active</i> and <i>Standby</i>.
 ### VCS
 
 
