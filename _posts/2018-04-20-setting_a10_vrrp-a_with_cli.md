@@ -79,7 +79,7 @@ ADC005(config)#
 ADC005-Standby(config)#    
 ADC005-Active(config)#
 ```
-We
+For VRRP-A setting, we created a <i>failover-non-preemption</i> template. As the name saying, this template is for disable preempt when fail over. 
 ```
 vrrp-a fail-over-policy-template failover-non-preemption
    trunk 1 weight 80
