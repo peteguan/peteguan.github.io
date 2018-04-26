@@ -140,13 +140,14 @@ backup system use-mgmt-port config ftp://x.x.x.x/
 As the shown that the system version on both devices was <i>version 2.7.1-GR1, build 58 (Apr-26-2015,07:23)</i> and we would like to upgrade them to <i>4.1.4</i>. We built a FTP server on laptop so that the A10 devices could download <i>.upg</i> system file from laptop via management interface.  
 The following sequence is important.
 1. Disable VCS on the <i>ADC005-Standby-vBlade[1/1]</i> device.
-2. Disable VCS on the <i>ADC005-Active-vMaster[1/2]</i> device.
-3. Modified system boot sequence on <i>ADC005-Standby</i> then save memory.
-4. Upgrade <i>ADC005-Standby</i> on hard disk secondary.
+2. Disable VCS on the <i>ADC006-Active-vMaster[1/2]</i> device.
+3. Modified system boot sequence on <i>ADC005-Active</i> then save memory.
+4. Upgrade <i>ADC005-Active</i> on hard disk secondary.
 5. Modified system boot sequence on <i>ADC006-Active</i> then save memory.
-6. Switch <i>ADC006-Active</i> to <i>Standby</i> mode by command <i>vrrp-a force-self-standby</i>, then check VRRP-A by <i>show vrrp-a</i>.
-7. Upgrade <i>ADC006-Active</i> on hard disk secondary.
-8.
+6. Switch <i>ADC006-Active</i> to <i>ADC006-ForcedStandby</i> mode by command <i>vrrp-a force-self-standby</i>, then check VRRP-A by <i>show vrrp-a</i>.
+7. Upgrade <i>ADC006-ForcedStandby</i> on hard disk secondary.
+8. Disable <i>ForcedStandby</i> by <i>no vrrp-a force-self-standby</i>
+9. Enable 
 ```
 vcs disable
 show bootimage
@@ -154,6 +155,7 @@ bootimage hd sec
 write memory
 write memory secondary
 upgrade hd sec use-mgmt-port ftp://x.x.x.x/ ACOS_non_FTA_4_1_4_332.64.upg
+vcs enable
 ```
 Finally we got ACOS 4.1.4,
 ```
