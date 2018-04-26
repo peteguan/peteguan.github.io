@@ -79,6 +79,18 @@ ADC005(config)#
 ADC005-Standby(config)#    
 ADC005-Active(config)#
 ```
+We
+```
+vrrp-a fail-over-policy-template failover-non-preemption
+   trunk 1 weight 80
+!
+vrrp-a vrid default
+   preempt-mode disable
+   floating-ip 1.1.1.3
+   priority 100
+   fail-over-policy-template failover-non-preemption
+!
+```
 ## Upgrade System Version
 
 
