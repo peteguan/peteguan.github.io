@@ -112,7 +112,25 @@ enable
 exit
 vcs reload
 ```
-After handshaking and synchronisation, VCS had been built up. Since we reloaded <b>ADC006</b> VCS after <b>ADC005</b>, <b>ADC005</b> became <i>ADC005-Standby-vBlade[1/1]</i> and <b>ADC005</b>, <b>ADC006</b> became <i>ADC005-Active-vMaster[1/2]</i>. The VSC status and
+After handshaking and synchronisation, VCS had been built up. Since we reloaded <b>ADC006</b> VCS after <b>ADC005</b>, <b>ADC005</b> became <i>ADC005-Standby-vBlade[1/1]</i> and <b>ADC005</b>, <b>ADC006</b> became <i>ADC005-Active-vMaster[1/2]</i>. The VSC status and information could be read by command <i>show vcs summary</i> and <i>show vcs stat</i>.
+The following information was the current vcs summary on ADC006.
+```
+ADC006-Active-vMaster[1/2]#show vcs summary
+VCS Chassis:
+   VCS Enabled:                               Yes
+   Chassis ID:                                1
+   Floating IP:                               2.2.2.2
+   Mask:                                      255.255.255.0
+   Multicast IP:                              224.0.0.210
+   Multicast Port:                            41217
+   Version:                                   2.7.1-GR1.b58
+Members(* means local device):
+ ID  State       Priority IP:Port                                       Location
+-------------------------------------------------------------------------------
+ 1   vBlade      150      1.1.1.1:41216                                 Remote  
+ 2   vMaster(*)  100      1.1.1.2:41216                                 Local   
+Total: 2
+```
 ### Upgrade System Version
 
 
