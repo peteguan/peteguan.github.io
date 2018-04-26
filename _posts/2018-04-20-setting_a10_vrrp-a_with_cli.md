@@ -29,6 +29,8 @@ image: "/images/A10-Logo.jpg"
 
 ## Experiment Process
 
+### Basic Configuration
+
 First, we connected A10 devices to laptop via a console cable plugged into the console port to check system version and deploy basic configurations like timezone.
 ```
 clock timezone Asia/Shanghai
@@ -65,6 +67,8 @@ vlan 99
 tagged trunk 1
 router-interface ve 99
 ```
+### VRRP-A HA
+
 Then we started to set VRRP-A.<br>
 Before enabling the function VRRP-A, we set <b>set-id</b> and <b>device-id</b> for each A10 3530. We set the set as 1, <b>ADC005</b> as <b>device 1</b> and <b>ADC006</b> as device 2.<br>
 It is time to enable VRRP-A.
@@ -80,7 +84,7 @@ ADC005-Standby(config)#
 ADC005-Active(config)#
 ```
 For VRRP-A setting, we created a <i>failover-non-preemption</i> template. As the name saying, this template is for disable preempt when fail over.<br>
-The following commands are for <b>ADC005</b> and set <b>ADC006</b> exactly the same except <i>priority</i> <b>50</b>.
+The following commands are for <b>ADC005</b>. For <b>ADC006</b>，the commands are exactly the same except for setting <i>priority</i> as <i>50</i>.
 ```
 vrrp-a fail-over-policy-template failover-non-preemption
    trunk 1 weight 80
@@ -92,7 +96,11 @@ vrrp-a vrid default
    fail-over-policy-template failover-non-preemption
 !
 ```
-## Upgrade System Version
+### VCS
+
+
+
+### Upgrade System Version
 
 
 
