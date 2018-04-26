@@ -132,8 +132,14 @@ Members(* means local device):
 Total: 2
 ```
 ### Upgrade System Version
-
-
+Before upgrading system, the most important step is to check the current system version and back up system via management interface.
+```
+show version
+backup system use-mgmt-port config ftp://x.x.x.x/
+```
+The following sequence is important.
+1. Disable VCS on the <i>ADC005-Standby-vBlade[1/1]</i> device.
+2. Disable VCS on the <i>ADC005-Active-vMaster[1/2]</i> device.
 
 ## Experiment Tips
 
