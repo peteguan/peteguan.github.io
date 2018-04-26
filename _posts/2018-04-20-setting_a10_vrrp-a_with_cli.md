@@ -147,7 +147,10 @@ The following sequence is important.
 6. Switch <i>ADC006-Active</i> to <i>ADC006-ForcedStandby</i> mode by command <i>vrrp-a force-self-standby</i>, then check VRRP-A by <i>show vrrp-a</i>.
 7. Upgrade <i>ADC006-ForcedStandby</i> on hard disk secondary.
 8. Disable <i>ForcedStandby</i> by <i>no vrrp-a force-self-standby</i>
-9. Enable 
+9. Re-config VCS on <i>ADC005-Active</i> and <i>ADC006-Standby</i>.
+10. Enable VCS on <i>ADC005-Active</i>.
+11. Enable VCS on <i>ADC006-Standby</i>. (the <i>vBlade</i> one will reboot while VCS synchronising)
+12. Check VCS configuration on both two devices.
 ```
 vcs disable
 show bootimage
@@ -156,6 +159,7 @@ write memory
 write memory secondary
 upgrade hd sec use-mgmt-port ftp://x.x.x.x/ ACOS_non_FTA_4_1_4_332.64.upg
 vcs enable
+show vcs stat
 ```
 Finally we got ACOS 4.1.4,
 ```
@@ -186,6 +190,7 @@ AX Series Advanced Traffic Manager AX3530
           Hard Disk secondary image (default) version 4.1.4, build 332
           Compact Flash primary image (default) version 2.7.1-GR1, build 58
 ```
+* In former versions VCS does not need to re-config after upgrading. However, we found all VCS configurations disappeared in the experiment process. An engineer from A10 supplier gave us the demonstartion that VCS function in ACOS 4.1.4 has been a great improvement comparing with 2.7.1. In the process of upgrading, A10 device will drop former VCS configuration.
 ## Experiment Tips
 
 * Remember always save memory and secondary memory when setting configurations.
@@ -197,5 +202,4 @@ write memory secondary
 ```
 show running-config
 show interfaces brief
-show
 ```
