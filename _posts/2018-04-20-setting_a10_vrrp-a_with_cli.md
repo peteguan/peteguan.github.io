@@ -99,7 +99,17 @@ vrrp-a vrid default
 Now we could find that the VRRP-A status of these two devices had became <i>Active</i> and <i>Standby</i>.
 ### VCS
 
-
+We used the management interface as VCS transmit port. <b>ADC005</b> was set as <i>device 1</i> and <b>ADC006</b> as <i>device 2</i>
+The following commands are for <b>ADC005</b>. For <b>ADC006</b>，the commands are exactly the same except for setting <i>priority</i> as <i>100</i>.
+```
+vcs floating-ip 2.2.2.2 /24
+vcs device 1
+priority 150
+interfaces management
+enable
+exit
+vcs reload
+```
 
 ### Upgrade System Version
 
