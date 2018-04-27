@@ -19,7 +19,7 @@ I was born in Shenyang, China.
 
 I got my MSc in the University of Birmingham in 2017, supervised by [Prof. Mark D. Ryan](https://www.cs.bham.ac.uk/~mdr/) and [Dr. Ian Batten](https://www.batten.eu.org/~igb/) in cyber security field. During the college time, I focused on penetration testing, crypto suite in network protocols and password management.
 
-I joined [ctrip.com](http://ctrip.com/) at the very beginning of 2018, working as an Site Reliability Engineer, and started to learn DevOps techniques about Load Balance, ADC devices, CDN, GSLB and new programming langs like python and golang here. In saying that, everything is new for me but deserving to enjoy.
+I joined [ctrip.com](http://ctrip.com/) at the very beginning of 2018, working as an Site Reliability Engineer, and started to learn DevOps techniques about Load Balance, ADC devices(A10 and Netscaler), CDN, GSLB and new programming languages like <i>Python</i> and <i>Golang</i> here. In saying that, everything is new for me but deserving to enjoy.
 
 
 
@@ -55,18 +55,18 @@ List of concerts I've ever watched.
 
 <div class="box">
   <p>
-  <b>王力宏 Leehom Wang - 龙的传人2060世界巡回演唱会 Descendants of the Dragon 2060 - 01 Jun 2018</b>     Mercedes-Benz Arena, Shanghai, P.R.China<br>
-  <b>James Blunt - The AfterLove Tour - 04 Apr 2018</b>     Mercedes-Benz Arena, Shanghai, P.R.China<br>
-  <b>反光镜 Reflector - 再.见 ONE MORE TIME - 16 Mar 2018</b>     ModernSky LAB, Shanghai, P.R.China<br>
-  <b>Bryan Adams - Get Up 2017 - 15 Jul 2017</b>     Sixways Stadium, Worcester, UK<br>
-  <b>U2 - Joshua Tree Tour 2017 - 9 Jul 2017</b>     Twickenham Stadium, London, UK<br>
-  <b>Guns n' Roses - Not in this Life Time - 17 Jun 2017</b>     Queen Elizabeth Olympic Park, London, UK<br>
-  <b>X Japan - X Japan World Tour 2017 - 4 Mar 2017</b>     Wembley SSE Arena, London, UK<br>
-  <b>SUM 41 - Don't Call it a Sum-Back Tour - 24 Feb 2017</b>     O2 Academy, Birmingham, UK<br>
-  <b>Red Hot Chilli Peppers - RHCP 2016 UK Tour - 11 Dec 2016</b>     Genting Area, Birmingham, UK<br>
-  <b>反光镜 Reflector - 幻.镜 2015 - 15 May 2015</b>     Hertz Bar, Dalian, P.R.China<br>
-  <b>二手玫瑰 Second Hand Rose - 摇滚无用 - 21 Mar 2014</b>     宏济大舞台, Dalian, P.R.China<br>
-  <b>張學友 Jacky Cheung - 1/2世纪世界巡回演唱会 1/2 Century Tour - 19 Jun 2011</b>     Olympic Sports Centre, Shenyang, P.R.China<br>
+  <b>* 王力宏 Leehom Wang - 龙的传人2060世界巡回演唱会 Descendants of the Dragon 2060 - 01 Jun 2018</b>     Mercedes-Benz Arena, Shanghai, P.R.China<br>
+  <b>* James Blunt - The AfterLove Tour - 04 Apr 2018</b>     Mercedes-Benz Arena, Shanghai, P.R.China<br>
+  <b>* 反光镜 Reflector - 再.见 ONE MORE TIME - 16 Mar 2018</b>     ModernSky LAB, Shanghai, P.R.China<br>
+  <b>* Bryan Adams - Get Up 2017 - 15 Jul 2017</b>     Sixways Stadium, Worcester, UK<br>
+  <b>* U2 - Joshua Tree Tour 2017 - 9 Jul 2017</b>     Twickenham Stadium, London, UK<br>
+  <b>* Guns n' Roses - Not in this Life Time - 17 Jun 2017</b>     Queen Elizabeth Olympic Park, London, UK<br>
+  <b>* X Japan - X Japan World Tour 2017 - 4 Mar 2017</b>     Wembley SSE Arena, London, UK<br>
+  <b>* SUM 41 - Don't Call it a Sum-Back Tour - 24 Feb 2017</b>     O2 Academy, Birmingham, UK<br>
+  <b>* Red Hot Chilli Peppers - RHCP 2016 UK Tour - 11 Dec 2016</b>     Genting Area, Birmingham, UK<br>
+  <b>* 反光镜 Reflector - 幻.镜 2015 - 15 May 2015</b>     Hertz Bar, Dalian, P.R.China<br>
+  <b>* 二手玫瑰 Second Hand Rose - 摇滚无用 - 21 Mar 2014</b>     宏济大舞台, Dalian, P.R.China<br>
+  <b>* 張學友 Jacky Cheung - 1/2世纪世界巡回演唱会 1/2 Century Tour - 19 Jun 2011</b>     Olympic Sports Centre, Shenyang, P.R.China<br>
   </p>
 </div>
 
