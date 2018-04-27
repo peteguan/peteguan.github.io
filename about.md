@@ -55,7 +55,7 @@ List of concerts I've ever watched.
 
 <div class="box">
   <p>
-  <b>王力宏 Leehom Wang - DESCENDANTS OF THE DRAGON 2060 - 01 Jun 2018</b>     Mercedes-Benz Arena, Shanghai, P.R.China<br>
+  <b>王力宏 Leehom Wang - 龙的传人2060世界巡回演唱会 Descendants of the Dragon 2060 - 01 Jun 2018</b>     Mercedes-Benz Arena, Shanghai, P.R.China<br>
   <b>James Blunt - The AfterLove Tour - 04 Apr 2018</b>     Mercedes-Benz Arena, Shanghai, P.R.China<br>
   <b>反光镜 Reflector - 再.见 ONE MORE TIME - 16 Mar 2018</b>     ModernSky LAB, Shanghai, P.R.China<br>
   <b>Bryan Adams - Get Up 2017 - 15 Jul 2017</b>     Sixways Stadium, Worcester, UK<br>
