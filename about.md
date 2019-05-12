@@ -19,13 +19,13 @@ I was born in Shenyang, China.
 
 I got my MSc in the University of Birmingham in 2017, supervised by [Prof. Mark D. Ryan](https://www.cs.bham.ac.uk/~mdr/) and [Dr. Ian Batten](https://www.batten.eu.org/~igb/) in cyber security field. During the college time, I focused on penetration testing, crypto suite in network protocols and password management.
 
-I joined [ctrip.com](http://ctrip.com/) at the very beginning of 2018, working as an Site Reliability Engineer, and started to learn DevOps techniques about Load Balance, ADC devices(A10 and Netscaler), CDN, GSLB and new programming languages like <i>Python</i> and <i>Golang</i> here. In saying that, everything is new for me but deserving to enjoy.
+I joined [ctrip.com](http://ctrip.com/) at the very beginning of 2018, working as an Site Reliability Engineer, and started to learn DevOps techniques about Load Balance, ADC devices(F5, A10 and Citrix Netscaler), CDN, GSLB, influxDB and new programming languages like <i>Python</i> and <i>Golang</i> here. In saying that, everything is new for me but deserving to enjoy.
 
 
 
 ### Spare Time
 
-I am an Aston Villan. Forever and ever.
+I am an Aston Villa fan. Forever and ever.
 
 Collecting musical equipments is what I am interested.
 
