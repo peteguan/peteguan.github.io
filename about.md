@@ -55,6 +55,7 @@ List of concerts I've ever watched.
 
 <div class="box">
   <p>
+  <b>* the Candle Thieves - Before the War - 24 Oct 2019</b>     MAO Livehouse, Shanghai, P.R.China<br>
   <b>* 二手玫瑰 Second Hand Roses - 万人之路 - 20 Jun 2019</b>     ModernSky, Shanghai, P.R.China<br>
   <b>* John Mayer - Asia Tour 2019 Hong Kong - 08 Apr 2019</b>     Hong Kong Convention and Exhibition Centre, Hong Kong Special Administrative Region of the People's Republic of China<br>
   <b>* 王力宏 Leehom Wang - 龙的传人2060世界巡回演唱会 Descendants of the Dragon 2060 - 01 Jun 2018</b>     Mercedes-Benz Arena, Shanghai, P.R.China<br>
